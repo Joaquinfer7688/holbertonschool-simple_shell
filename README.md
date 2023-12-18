@@ -33,7 +33,9 @@ In the same regard, running getppid() multiple times within the same program exe
 5. Return to Step 2 for More Actions
 * To finish using the shell, simply type the exit command at the prompt or use Ctrl-D, which is seen as the end of the file (EOF)
 
-## Files used in this project
+## Files 
+
+List of files used in this project:
 
 | File                   | Description                                                                                                  |
 |------------------------|--------------------------------------------------------------------------------------------------------------|
@@ -45,7 +47,7 @@ In the same regard, running getppid() multiple times within the same program exe
 | **`getcommandfunc.c`** | The `get_command` function resolves the full path of a command.                         |
 | **`getenvfunc.c`**     | The `_getenv` function retrieves the value of an environment variable.                                      |
 | **`split_stringfunc.c`**| Splits a string into an array of tokens.                                                                    |
-
+ |**`README.md`** | Current file. Contains information about this project. |
 ## System Calls used in this project
 
 The system call is the fundamental interface between an application and the Linux kernel, and the Kernel is the software that serves as a bridge between the hardware and the rest of the operating system functions.

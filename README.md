@@ -33,7 +33,7 @@ In the same regard, running getppid() multiple times within the same program exe
 5. Return to Step 2 for More Actions
 * To finish using the shell, simply type the exit command at the prompt or use Ctrl-D, which is seen as the end of the file (EOF)
 
-## Files
+## Files used in this project
 
 | File                   | Description                                                                                                  |
 |------------------------|--------------------------------------------------------------------------------------------------------------|

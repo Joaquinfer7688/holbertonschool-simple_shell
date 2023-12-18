@@ -1,0 +1,4 @@
+# This file lists all contributors to the repository.
+
+Joaquin Fernandez <7688@holbertonstudents.com>
+Pablo Salina <6776@holbertonstudents.com>

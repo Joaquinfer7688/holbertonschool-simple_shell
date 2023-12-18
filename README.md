@@ -82,16 +82,43 @@ Compile it with :
 ```
 $ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 ```
+The shell can be used in interactive or non-interactive mode.
 
 Run the shell in interactive mode:
 
 ```
 $ ./hsh
 ```
+
+Example:
+
+```
+$ ./hsh
+$ls
+AUTHORS.txt       hsh
+execve.c          README.md
+freetokens.c      shell.h
+getcommandfunc.c  simple_shell.c
+getenvfunc.c      split_stringfunc.c
+$echo hello_world
+hello_world
+$exit
+```
 Or  non-interactive mode:
 
 ```
 $ echo "/bin/ls" | ./hsh
+```
+
+Example:
+
+```
+$ echo "/bin/ls" | ./hsh
+AUTHORS.txt       hsh
+execve.c          README.md
+freetokens.c      shell.h
+getcommandfunc.c  simple_shell.c
+getenvfunc.c      split_stringfunc.c
 ```
 
 ## Authors
